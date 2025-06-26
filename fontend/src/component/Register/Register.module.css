@@ -1,0 +1,54 @@
+.background {
+  background-image: url("../../image/banner1.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 25%;
+  padding: 60px 40px;
+}
+.form h1 {
+  margin-bottom: 20%;
+  font-weight: 100;
+  color: #b9b5ac;
+  font-style: italic;
+}
+.form button {
+  margin: 20px 0;
+  height: 3rem;
+  background-color: #494949;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.form p {
+  margin-top: 20px;
+  font-style: italic;
+}
+.form a {
+  color: #95bff1;
+  text-decoration: none;
+}
+.form__input {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ededed;
+  border-bottom: none;
+}
+.form__input input {
+  height: 3.5rem;
+  border: 0;
+  border-bottom: 1px solid #ededed;
+  padding-left: 30px;
+}

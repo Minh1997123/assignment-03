@@ -1,0 +1,20 @@
+.product__list__item {
+}
+.product__list__item img {
+  width: 100%;
+  cursor: pointer;
+  animation-name: zoom;
+  animation-duration: 1s;
+  transition: opacity 0.5s;
+}
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.product__list__item img:hover {
+  opacity: 0.5;
+}

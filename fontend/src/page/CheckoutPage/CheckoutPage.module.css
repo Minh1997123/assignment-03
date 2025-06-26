@@ -1,0 +1,14 @@
+.checkoutpage {
+  padding: 20px 40px;
+}
+.checkoutpage h2 {
+  text-align: start;
+}
+.checkoutpage * {
+  font-style: italic;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}

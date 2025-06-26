@@ -1,0 +1,29 @@
+.checkout__total {
+  background-color: #f8f9fa;
+  width: 25%;
+  padding: 40px;
+  height: fit-content;
+}
+.checkout__total h3 {
+  font-style: italic;
+  text-align: start;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dee2e6;
+  font-style: italic;
+}
+.item > * {
+  text-align: start;
+}
+.item > i {
+  font-size: 0.7rem;
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: italic;
+}

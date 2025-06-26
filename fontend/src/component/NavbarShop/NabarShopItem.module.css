@@ -1,0 +1,22 @@
+.nabar__shop__item {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.nabar__shop__item > * {
+  padding-left: 20px;
+  font-style: italic;
+}
+.nabar__shop__item h4 {
+  height: 2.5rem;
+  background-color: #f6f9f6;
+  display: flex;
+  align-items: center;
+}
+.nabar__shop__item i {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.nabar__shop__item .active {
+  color: #e1bd65;
+}

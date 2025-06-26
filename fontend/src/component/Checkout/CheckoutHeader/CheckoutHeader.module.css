@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 50px 30px;
+}
+.header h1 {
+  font-style: italic;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-style: italic;
+}
+.header a:last-child {
+  margin-right: 0;
+}
+.header .active {
+  color: #d0cbc0;
+}

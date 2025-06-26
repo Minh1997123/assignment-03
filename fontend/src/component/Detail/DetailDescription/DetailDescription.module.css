@@ -1,0 +1,24 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 50px 0;
+}
+.description button {
+  height: 2.5rem;
+  background-color: #353535;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-style: italic;
+}
+.description h2 {
+  font-style: italic;
+}
+.description p {
+  white-space: pre;
+  text-align: start;
+  font-style: italic;
+}

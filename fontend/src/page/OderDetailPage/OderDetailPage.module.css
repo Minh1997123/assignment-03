@@ -1,0 +1,28 @@
+.container {
+  padding: 20px 15%;
+}
+.heder {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 30px;
+}
+.heder > * {
+  margin: 5px;
+}
+.content {
+  margin-top: 10%;
+}
+
+.content thead {
+  background-color: #f8f9fa;
+  height: 3rem;
+}
+.content img {
+  width: 100%;
+}
+.container tr {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr) repeat(3, 1fr);
+  align-items: center;
+}

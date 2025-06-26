@@ -1,0 +1,20 @@
+.shop_page {
+  padding-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #f6f9f6;
+}
+.header h1 {
+  font-style: italic;
+}
+
+.content {
+  display: flex;
+  padding-top: 30px;
+  gap: 40px;
+}

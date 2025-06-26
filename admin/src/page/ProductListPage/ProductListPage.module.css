@@ -1,0 +1,32 @@
+.container {
+  padding: 10px;
+}
+.header {
+  margin-bottom: 30px;
+}
+.header h2 {
+  color: black;
+}
+.header input {
+  height: 2rem;
+  width: 20%;
+}
+.content {
+}
+.content tr {
+  display: grid;
+  grid-template-columns: 2fr 3fr repeat(3, 1fr) 2fr;
+  border: 1px solid black;
+}
+
+.content tr > * {
+  padding-left: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid black;
+}
+.container tr th {
+  text-align: start;
+  height: 4rem;
+}

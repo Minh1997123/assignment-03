@@ -1,0 +1,35 @@
+.button {
+  display: grid;
+  height: 2.5rem;
+  grid-template-columns: 2fr 1fr;
+}
+.button__quanity {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-right: 0px;
+}
+.button__quanity input {
+  border: 0;
+  outline: none;
+  padding-left: 20px;
+  width: 60%;
+}
+.button__quanity button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  cursor: pointer;
+}
+.button__quanity svg {
+  height: 1rem;
+}
+.button > button {
+  background-color: #353535;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.button__quanity span {
+  font-style: normal;
+}

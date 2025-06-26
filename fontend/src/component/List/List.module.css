@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.list h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+.list ul {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  list-style: none;
+  gap: 5px;
+  padding: 0;
+  position: relative;
+}
+.list li:hover {
+  opacity: 0.5;
+}
+
+.list li h2 {
+  font-size: 1rem;
+  margin: 0;
+  font-style: italic;
+}
+.list img {
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

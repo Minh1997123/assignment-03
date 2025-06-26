@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  flex-grow: 1;
+}
+.form input {
+  height: 2.5rem;
+  padding-left: 20px;
+  border: 1px solid #dee2e6;
+  outline: none;
+  margin: 10px 0 30px 0;
+}
+.form button {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #383838;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

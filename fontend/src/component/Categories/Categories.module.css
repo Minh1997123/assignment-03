@@ -1,0 +1,18 @@
+.categoty {
+  padding: 40px 0;
+}
+.categoty h2 {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+.categoty__img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.categoty__img img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

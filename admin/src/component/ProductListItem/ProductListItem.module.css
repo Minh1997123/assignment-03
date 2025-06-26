@@ -1,0 +1,29 @@
+.image {
+  width: 50%;
+}
+.item {
+  padding: 5px 0;
+  border: 1px solid #f4f8fb;
+}
+
+.buttons {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.buttons button {
+  height: 50%;
+  margin-right: 20px;
+  color: white;
+}
+.button--update {
+  background-color: #4fcb80;
+}
+.button--delete {
+  background-color: #f7606f;
+}
+
+.backgoundOdd {
+  background-color: #f4f8fb;
+}
