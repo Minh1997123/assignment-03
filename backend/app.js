@@ -20,6 +20,7 @@ app.use(
       `http://localhost:3000`,
       `http://localhost:3001`,
     ],
+
     // bat buoc de nhan cookie tu http://localhost:3000 va http://localhost:3001
     credentials: true,
   })
