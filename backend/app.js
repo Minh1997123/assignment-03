@@ -14,11 +14,13 @@ const mongodbSesstion = require("connect-mongodb-session");
 const app = express();
 
 const uriDb = process.env.MONGODB_URI;
-console.log(uriDb);
 app.use(
   cors({
+    origin: process.env.ORIGIN?.split(",") || [
+      `http://localhost:3000`,
+      `http://localhost:3001`,
+    ],
     // bat buoc de nhan cookie tu http://localhost:3000 va http://localhost:3001
-    origin: [`http://localhost:3000`, `http://localhost:3001`],
     credentials: true,
   })
 );
